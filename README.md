@@ -71,4 +71,4 @@ python pytest tests/
 
 # Результат работы программы
 
-
+![img.png](output/output.png)
