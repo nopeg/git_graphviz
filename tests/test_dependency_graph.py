@@ -6,7 +6,7 @@ from src.dependency_graph import DependencyGraph
 class TestDependencyGraph(unittest.TestCase):
     def setUp(self):
         self.graph = DependencyGraph('C:\\Graphviz\\bin\\dot.exe', 'C:\\Users\\noubuk\\source\\python mirea\\shell_task',
-                                     'C:\\Users\\noubuk\\source\\python mirea\\git_graphviz\\output\\output.png')
+                                     'C:\\Users\\noubuk\\source\\python mirea\\git_graphviz\\output\\output.png', 'main')
 
     def test_build_graph(self):
         self.graph.build_graph()
