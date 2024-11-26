@@ -67,7 +67,7 @@ python pytest tests/
 
 # Результат юнит-тестов программы
 
-
+![img.png](output/tests.png)
 
 # Результат работы программы
 
